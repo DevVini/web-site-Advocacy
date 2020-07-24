@@ -3,7 +3,6 @@ width: 100%;
 height: 100%;
 margin: 0 auto;
 }
-
 ul{
     padding: 0px!important;
 }
@@ -26,6 +25,7 @@ width: 55%;
 margin-left: 15px;
 display: inline-block;
 float: left;
+list-style: none;
 }
 .redesSociais{
 width: 40%;
@@ -81,46 +81,51 @@ border: 1px solid #d6d6d6;
 }
 .col-100{
 width: 100%;
-float:left;
+float: left;
 position: relative;
+}
+.slide-principal{
+    border-bottom: 3px solid #daa520;
+  
 }
 button.slick-prev {
     font-size: 0px;
     border: none;
-    height: 61px;
-    width: 63px;
+    height: 30px;
+    width: 17px;
     background-color: transparent;
     background-image: url(../imagens/setaEsquerda.png);
     position: absolute;
     z-index: 9;
-    top: 40%;
-    left: 14%;
+    top: 50%;
+    left: 2%;
 }
 button.slick-next {
     font-size: 0px;
     border: none;
-    height: 61px;
-    width: 63px;
+    height: 30px;
+    width: 17px;
     background-color: transparent;
     background-image: url(../imagens/setaDireita.png);
     position: absolute;
     z-index: 9;
-    top: 40%;
-    right: 14%;
+    top: 50%;
+    right: 2%;
 }
 .slick-list{
     width: 100%!important;
+    height: 454px;;
 }
 .slick-initialized{
     overflow: hidden;
 }
 .slick-dots li button{
     font-size: 0px;
-    border: 5px solid #daa520;
-    width: 19px;
-    height: 21px;
+    border: 2px solid #daa520;
+    width: 16px;
+    height: 10px;
     background: transparent;
-    border-radius: 50%;
+    border-radius: 0%;
     cursor: pointer; 
 }
 .slick-dots li{
@@ -129,26 +134,59 @@ button.slick-next {
 }
 .slick-dots {
     margin: 0 auto;
-    width: 50%;
-    left: 50%;
-    top: 581px;
+    width: 45%;
+    left: 45%;
+    top: 414px;
     position: absolute;
 }
 li.slick-active button{
-    background: #0a0a09;
-}
-.texto-destaque p{
-font-size: 15px;
-color: #9a9a9a
+    background: #ffd661;
 }
 .texto-destaque{
 text-align: center;
 }
+.texto-destaque strong{
+    color: #daa520
+}
 .texto-destaque h1{
     font-size: 30px;
     text-transform: uppercase;
-    color: #818181
+    color: #0a0a09;
 }
-.texto-destaque strong{
-    color: #646464
+.texto-destaque p{
+    font-size: 15px;
+    color: #0a0a09;
+    font-family: Arial;
 }
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.bloco-texto{
+    margin-top: 3em;
+    color: #0a0a09;
+    font-family: Arial;
+}
+h3{
+    font-weight: normal!important;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 342px;
+    border: 1px solid #daa520;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: center;
+}
+
