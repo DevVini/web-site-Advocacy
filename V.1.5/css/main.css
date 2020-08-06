@@ -1,0 +1,367 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+.menuPrincipal{
+width: 100%;
+background-color: #0a0a09;
+height: 60px;
+}
+main, .content texto-destaque{
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+.logo{
+float: left;
+padding: 5px;
+width: 55%;
+}
+.redesSociais ul li{
+margin-left: 15px;
+display: inline-block;
+float: left;
+list-style: none;
+}
+.redesSociais{
+width: 25%;
+float: right;
+}
+.header2{
+background-color: #ffffff;
+width: 980px;
+margin: 0 auto;
+padding: 16px;
+}
+.menu-urls{
+height: 82px;
+border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+display: inline-block;
+color: #daa520;
+margin-left: 18px;
+height: 50px;
+}
+.menu ul li:hover{
+border-bottom: 3px solid #0a0a09;
+}
+.menu ul li a{
+color: #daa520;
+text-decoration: none;
+font-size: 18px;
+text-transform: uppercase;
+}
+.menu ul li a:hover{
+color: #0a0a09;
+
+}
+.menu{
+width: 70%;
+float:left;
+}
+.busca{
+width: 30%;
+float: right;
+text-align: center;
+}
+.busca input{
+background-image: url('../imagens/iconeSearch.png');
+background-repeat: no-repeat;
+background-position: 96%;
+margin-top: 10px;
+height: 36px;
+width: 190px;
+padding: 12px;
+border: 1px solid #d6d6d6;
+}
+.col-100{
+width: 100%;
+float: left;
+position: relative;
+}
+.slide-principal{
+    border-bottom: 3px solid #daa520;
+  
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    height: 30px;
+    width: 17px;
+    background-color: transparent;
+    background-image: url(../imagens/setaEsquerda.png);
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 2%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 30px;
+    width: 17px;
+    background-color: transparent;
+    background-image: url(../imagens/setaDireita.png);
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    right: 2%;
+}
+.slick-list{
+    width: 100%!important;
+    height: 454px;;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 2px solid #daa520;
+    width: 16px;
+    height: 10px;
+    background: transparent;
+    border-radius: 0%;
+    cursor: pointer; 
+}
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 45%;
+    left: 45%;
+    top: 414px;
+    position: absolute;
+}
+li.slick-active button{
+    background: #ffd661;
+}
+.texto-destaque{
+text-align: center;
+}
+.texto-destaque strong{
+    color: #daa520
+}
+.texto-destaque h1{
+    font-family: 'Arial Black';
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #0a0a09;
+}
+.texto-destaque b{
+    font-family: 'Arial Black';
+    font-size: 25px;
+    color: #0a0a09;
+}
+.texto-destaque p{
+    font-family: Arial;
+    font-size: 20px;
+    color: #0a0a09;
+    text-align: center;
+}
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.bloco-texto{
+    margin-top: 3em;
+}
+h3{
+    font-weight: normal!important;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 397px;;
+    border: 1px solid #daa520;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b{
+    text-align: center;
+    font-family: 'Arial Black';
+    font-size: 18px;
+    color: #daa250;
+}
+.bloco-imagem p{
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+    color: #daa250;
+}
+.bloco-imagens-texto{
+    background-color: #0a0a09;
+    border-bottom: 3px solid #daa520;
+    padding-bottom: 38px;
+}
+.bloco-imagens-texto::before{
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url("../imagens/seta.png");
+    background-repeat: no-repeat;
+    background-position-x: 817px;
+}
+.saiba-mais{
+    width: 159px;
+    z-index: 9;
+    position: relative;
+    padding-left: 89px;
+    padding-top: 0px;
+    margin-top: -14px
+}
+.info{ 
+    height: 440px;
+    width: 100%;
+    border-bottom: 3px solid #daa520;
+    background-image: url(../imagens/contato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.contato h1{
+    margin-bottom: -22px;
+    padding-top: 45px;
+    text-align:center;
+    font-family: 'Arial Black';
+    font-size: 41px;
+    text-transform: uppercase;
+    color: #c4c4c4;
+}
+.contato h2{
+    text-align:center;
+    font-family: 'Arial Black';
+    font-size: 20px;
+    color: #c4c4c4;
+}
+.botaoEnviar{
+    height: 54px;
+    margin-left: 882px;
+    width: 163px;
+    margin-top: 45px;
+    background-color: #d9bb53;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 20px;
+    border: #0a0a09 3px solid;
+    border-radius: 20px;
+}
+h3{
+    text-align:center;
+    font-family: 'Arial Black';
+    font-size: 34px;
+    color: black;
+}
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background:rgba(0, 0, 0, .5);
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container.mostrar{
+    display: flex;
+}
+.modal{
+    background: white;
+    width: 38%;
+    min-width: 300px;
+    padding: 7px;
+    border: 10px solid #daa250;
+    box-shadow: 0 0 0 10px black;
+    position: relative;
+}
+@keyframes modal{
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.mostrar .modal{
+    animation: modal 2s;
+}
+.fechar{
+    font-size: 2.2em;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid black;
+    background: #daa250;
+    color: black;
+    font-family: 'Arial';
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(1, 1, 1, .3);
+}
+form{
+    font-size: 16px;
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px 10px 52px;
+}
+.enviar input{
+    background: #daa250;
+    margin-top: 10px;
+    margin-left: 141px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+.enviar input:hover{
+    color: white;
+    background: black;
+    box-shadow: 0 0 0 3px #daa250;
+}
+input, textarea{
+    width: 470px;
+    padding: 8px;
+}
+label{
+    font-family: 'Arial';
+    font-size: 18px;
+
+}
+textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+    resize: vertical;
+}
+.formulario-contato img{
+    margin-left: 27px;
+    margin-bottom: -89px;
+
+}
