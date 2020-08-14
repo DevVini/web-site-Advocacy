@@ -354,7 +354,7 @@ form{
     background: black;
     box-shadow: 0 0 0 3px #daa250;
 }
-input, textarea{
+.formulario-contato input, textarea{
     width: 470px;
     padding: 8px;
 }
@@ -374,6 +374,3 @@ textarea{
     margin-bottom: -89px;
 
 }
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
