@@ -1,0 +1,188 @@
+.navbar {
+    border-bottom: 2px solid #cdcdcd;
+    position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    z-index: 50000;
+    width: 100%;
+    background-color: white!important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #00CED1;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+ul.navbar-nav a:hover { 
+    color: #00CED1 !important; 
+    border-bottom: 3px solid #324e99; 
+}
+ul.navbar-nav a{ 
+    font-size: 18px;
+}
+.btn {
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    background-image: none;
+    border-color: black;
+}
+.btn:hover{
+    color: white;
+    background-color: #324e99;
+    background-image: none;
+    border-color: black;
+}
+.navbar-light .navbar-brand {
+ 
+    color: rgba(0,0,0,.9);
+}
+.navbar-brand .show{
+    margin-left: 0px;
+    color: rgba(0,0,0,.9);
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: #777777 2px solid;
+    background-color: white;
+}
+.navbar-toggler:not(:disabled):not(.disabled):hover {
+    
+    background-color: #324e99;
+}
+.show .navbar-brand{
+    margin-left: 0px;
+}
+@media (min-width: 1423px){
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .collapse .navbar-nav{
+        margin-left: 367px;
+    }
+}
+@media (min-width: 1258px)and (max-width: 1422px){
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+.collapse .navbar-nav{
+    margin-left: 200px;
+}
+}
+@media (min-width:1071px) and (max-width: 1257px){
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .collapse .navbar-nav{
+        margin-left: 140px;
+    }
+}
+@media (min-width: 993px) and (max-width:1070px){
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .collapse .navbar-nav{
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+}
+.carousel-indicators .active {
+    background-color: #324e99;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23324e99' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23324e99' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.row{
+    text-align: center;
+    background-color: white;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.col-sm p, b, strong, h3, h5,p, .saiba-mais{
+    font-family: "raleway";
+}
+.col-sm p {
+    text-transform: capitalize;
+    font-size: 44px;
+    color: black;
+    text-align: center;
+}
+b, strong {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #324e99;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 14px;
+}
+.card-img-top {
+        width: 100%;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        border: 2px solid #708090;
+}
+.card{
+    border: none;
+}
+h5{
+    color: #324e99;
+    font-size: 21px;
+}
+p, .saiba-mais{
+    color: black;
+    font-size: 17px;
+    text-align: left;
+}
+.w-100 {
+    margin-top: 73px;
+    width: 100%!important;
+}
+.card-body .saiba-mais{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder
+}
+.saiba-mais:hover{
+    color: #324e99;
+}
